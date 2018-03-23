@@ -1,0 +1,9 @@
+# External module imports
+import smtplib
+print("Here we go! Press CTRL+C to exit")
+        server=smtplib.SMTP('smtp.gmail.com',587)
+    server.starttls()
+    server.login("spadetch@gmail.com", "spadetch581")
+    server.sendmail("spadetch@gmail.com", "k.ashu403@gmail.com", msg)
+
+                    server.quit()
